@@ -1,1 +1,1 @@
-# 🎭 Nice repository to learn some propper typescript
+# 📚 Nice repository to learn some propper typescript
