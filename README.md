@@ -10,15 +10,17 @@ $ git clone git@github.com:trusttoken/internal-tools.git
 
 2. Install dependencies.
 
-````sh
+```sh
 $ npm install -g pnpm
+```
 
 ### ⚙️ Updating dependencies
 
 After modifying `package.json`, you need to update the shrinkwrap file with the following command:
+
 ```sh
 pnpm install
-````
+```
 
 ### ✅ Testing
 
