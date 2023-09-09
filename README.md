@@ -1,4 +1,4 @@
-# 📚 Nice repository to learn some propper Typescript 👍
+# 📚 Repository to learn some propper Typescript 👍
 
 ## :gear: Installation
 
