@@ -5,7 +5,7 @@
 1. Clone the repository to your computer.
 
 ```bash
-$ git clone git@github.com:Wojstan/ts-learning.git
+$ git clone https://github.com/Wojstan/ts-learning.git
 ```
 
 2. Install dependencies.
