@@ -1,11 +1,11 @@
 // return object with following properties
-function objectCreation(name: string, age: number, email: string) {
+export function objectCreation(name: string, age: number, email: string) {
   return {}
 }
 
 // add a gender property (string) to the student object and set it to "Female".
 // add a calculateAverageGrade method to the student object that calculates and returns the average grade from the grades array.
-function objectManipulation() {
+export function objectManipulation() {
   const student = {
     name: 'Alice',
     age: 20,
@@ -20,8 +20,8 @@ function objectManipulation() {
 // model (string)
 // year (number)
 // power (number)
-// function that accepts an object of type Car and returns it with power increased by 20%
-function objectTypes(car: any) {
+// export function that accepts an object of type Car and returns it with power increased by 20%
+export function objectTypes(car: any) {
   return car
 }
 
@@ -37,7 +37,7 @@ interface Address {
   zipCode: string
 }
 
-function objectIntersection(name: string, age: number, city: string, zipCode: string) {
+export function objectIntersection(name: string, age: number, city: string, zipCode: string) {
   return {}
 }
 
@@ -46,15 +46,15 @@ function objectIntersection(name: string, age: number, city: string, zipCode: st
 // author (string)
 // published?: number (optional)
 // create an object of type Book with some properties, and make the published property optional
-function optionalProperties() {}
+export function optionalProperties() {}
 
 // Given two objects, person1 and person2, combine them into a new object combinedPerson using the spread operator
 // Ensure that the properties from both person1 and person2 are included in combinedPerson
-function objectSpread(person1: any, person2: any) {}
+export function objectSpread(person1: any, person2: any) {}
 
 // use type assertion to convert partialPerson to type Person and store it in a new variable called fullPerson
 // ensure that the type of fullPerson has all the required properties of the Person interface
-function typeAssertionWithPartial() {
+export function typeAssertionWithPartial() {
   const partialPerson: Partial<Person> = {
     name: 'Bob',
   }
@@ -63,7 +63,7 @@ function typeAssertionWithPartial() {
 }
 
 // Given an object originalSettings, create a new object updatedSettings by spreading originalSettings and overriding the fontSize property with a new value of 16
-function spreadWithOverrides() {
+export function spreadWithOverrides() {
   const originalSettings = {
     fontFamily: 'Arial',
     fontSize: '14px',
@@ -81,6 +81,4 @@ function spreadWithOverrides() {
 // Your goal is to create a sales report object that contains the following information:
 // Total sales revenue for each product.
 // Total quantity sold for each product.
-function generateSalesReport(transactions: any) {}
-
-export { objectCreation, generateSalesReport }
+export function generateSalesReport(transactions: any) {}
